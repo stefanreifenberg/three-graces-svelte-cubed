@@ -1,38 +1,16 @@
-# create-svelte
+# Sveltekit [svelte-cubed](https://svelte-cubed.vercel.app/) starter template
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+I have been tinkering with svelte-cubed and found myself wanting to create a starter template for my projects. This template is a simple Svelte app that uses the [svelte-cubed](https://svelte-cubed.vercel.app/) framework to create a simple Three.js scene.
 
-## Creating a project
+## Getting started
 
-If you're seeing this, you've probably already done this step. Congrats!
+Clone this repo and cd into the directory. After that install the dependencies with `npm install`. Then run `npm run dev` to start the development server.
 
 ```bash
 # create a new project in the current directory
-npm init svelte
+npm install 
 
 # create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Have fun!
