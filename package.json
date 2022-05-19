@@ -15,6 +15,7 @@
   },
   "type": "module",
   "dependencies": {
+    "lerp": "^1.0.3",
     "svelte-cubed": "^0.2.1",
     "three": "^0.140.2"
   }
