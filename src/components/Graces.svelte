@@ -1,5 +1,4 @@
 <script>
-	
 	import * as THREE from "three";
 	import * as SC from "svelte-cubed";
 	import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";

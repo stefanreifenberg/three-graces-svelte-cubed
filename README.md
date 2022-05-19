@@ -1,6 +1,6 @@
-# Sveltekit [svelte-cubed](https://svelte-cubed.vercel.app/) starter template
+# Sveltekit [svelte-cubed](https://svelte-cubed.vercel.app/) Three Graces Design Study
 
-I have been tinkering with svelte-cubed and found myself wanting to create a starter template for my projects. This template is a simple Svelte app that uses the [svelte-cubed](https://svelte-cubed.vercel.app/) framework to create a simple Three.js scene.
+This is a recreation of the Three Graces Projects by [drcmda](https://github.com/drcmda/testlighting) and [Anderson Mancini](https://github.com/ektogamat/threejs-graces). My goal was to recreate the original Three Graces by drcmda in Svelte as close as possible. I hope you enjoy!
 
 Here is a screenshot of the app:
 <p align="center">
@@ -18,4 +18,10 @@ npm install
 # create a new project in my-app
 npm run dev
 ```
-Have fun!
+
+# Attribution
+Original design created by Tom Bogner @dastom on Dribble: https://dribbble.com/shots/6767548-The-Three-Graces-Concept
+
+The GLTF used in this example was made by 3DLadnik: https://sketchfab.com/3DLadnik
+
+Released as CC-BY-4.0 by Sketchfab: https://sketchfab.com/3d-models/3d-printable-the-three-graces-58e0ae19e2984b86883edc41bf43415a
