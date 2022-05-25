@@ -5,7 +5,7 @@
     import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
 	import { onMount } from "svelte";
     import lerp from 'lerp'
-
+    
     const dracoLoader = new DRACOLoader()
     const loader = new GLTFLoader()
     dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/')
@@ -30,11 +30,6 @@
     });
 
     SC.onFrame(() => {
-    if (model) {
-        // TODO: find the right values
-        // model.rotation.y = lerp(model.rotation.y -0.5, mouse.x / 200, 0.005)
-        // console.log(model.rotation.y)
-    }
     // follow mouse with light
     spot.position.x = lerp((spot.position.x -0.5), mouse.x / 200, 0.1)
     spot.position.y = lerp((spot.position.y), -mouse.y / 200, 0.1)
@@ -55,10 +50,6 @@
 			 scale={[1,1,1]}
 			 position={[0, -2.5, 0]}
              rotation={[0, -0.2, 0]}
-             material={new THREE.MeshStandardMaterial({
-                color: '#474747',
-                metalness: 0.5,
-                roughness: 0.9})}
              castShadow
              receiveShadow
 		 />
